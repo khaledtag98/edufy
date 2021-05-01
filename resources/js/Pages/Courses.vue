@@ -1,6 +1,6 @@
 <template>
 <app-layout>
-  <div class="container mx-auto py-32">
+  <div class="container py-32 mx-auto">
       <h1>All Courses</h1>
   </div>
   </app-layout>

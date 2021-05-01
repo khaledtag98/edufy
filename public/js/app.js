@@ -2834,6 +2834,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _components_Navbar_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/components/Navbar.vue */ "./resources/js/components/Navbar.vue");
+/* harmony import */ var _components_Footer_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/components/Footer.vue */ "./resources/js/components/Footer.vue");
+//
 //
 //
 //
@@ -2845,9 +2847,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    Navbar: _components_Navbar_vue__WEBPACK_IMPORTED_MODULE_0__.default
+    Navbar: _components_Navbar_vue__WEBPACK_IMPORTED_MODULE_0__.default,
+    Footer: _components_Footer_vue__WEBPACK_IMPORTED_MODULE_1__.default
   }
 });
 
@@ -3910,122 +3914,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Layouts_AppLayout_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Layouts/AppLayout.vue */ "./resources/js/Layouts/AppLayout.vue");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _components_Hero_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Hero.vue */ "./resources/js/components/Hero.vue");
 //
 //
 //
@@ -4063,9 +3952,56 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      courses: [{
+        id: "1",
+        name: "Chemistry",
+        description: "Is simply dummy text of the printing and typesetting industry. Lorem Ipsum has ",
+        price: "1000$"
+      }, {
+        id: "2",
+        name: "Machine Learning",
+        description: "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+        price: "2000$"
+      }, {
+        id: "3",
+        name: "Software Engineering",
+        description: "years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, ",
+        price: "4000$"
+      }, {
+        id: "4",
+        name: "Web Development",
+        description: "believable. If you are going to use a passage of Lorem Ipsum, you n",
+        price: "6000$"
+      }, {
+        id: "5",
+        name: "Database Management",
+        description: "ent of a page when looking at its layout. The point of using Lorem Ips",
+        price: "2000$"
+      }, {
+        id: "6",
+        name: "Machine Learning",
+        description: "ent of a page when looking at its layout. The point of using Lorem Ips",
+        price: "2000$"
+      }, {
+        id: "7",
+        name: "Cloud Computing",
+        description: "ent of a page when looking at its layout. The point of using Lorem Ips",
+        price: "2000$"
+      }, {
+        id: "8",
+        name: "Robotics",
+        description: "ent of a page when looking at its layout. The point of using Lorem Ips",
+        price: "2000$"
+      }]
+    };
+  },
   components: {
-    AppLayout: _Layouts_AppLayout_vue__WEBPACK_IMPORTED_MODULE_0__.default
+    AppLayout: _Layouts_AppLayout_vue__WEBPACK_IMPORTED_MODULE_0__.default,
+    Hero: _components_Hero_vue__WEBPACK_IMPORTED_MODULE_1__.default
   } // props: {
   //     canLogin: Boolean,
   //     canRegister: Boolean,
@@ -5756,6 +5692,183 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     JetAuthenticationCardLogo: _Jetstream_AuthenticationCardLogo__WEBPACK_IMPORTED_MODULE_0__.default
   }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Hero.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Hero.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Layouts_AppLayout_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Layouts/AppLayout.vue */ "./resources/js/Layouts/AppLayout.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    AppLayout: _Layouts_AppLayout_vue__WEBPACK_IMPORTED_MODULE_0__.default
+  } // props: {
+  //     canLogin: Boolean,
+  //     canRegister: Boolean,
+  // },
+
 });
 
 /***/ }),
@@ -30422,6 +30535,82 @@ component.options.__file = "resources/js/Pages/TermsOfService.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/Footer.vue":
+/*!********************************************!*\
+  !*** ./resources/js/components/Footer.vue ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=61a7c374& */ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Footer.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Hero.vue":
+/*!******************************************!*\
+  !*** ./resources/js/components/Hero.vue ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Hero_vue_vue_type_template_id_7ebbb9e5_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true& */ "./resources/js/components/Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true&");
+/* harmony import */ var _Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Hero.vue?vue&type=script&lang=js& */ "./resources/js/components/Hero.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _Hero_vue_vue_type_template_id_7ebbb9e5_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Hero_vue_vue_type_template_id_7ebbb9e5_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  "7ebbb9e5",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Hero.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/Navbar.vue":
 /*!********************************************!*\
   !*** ./resources/js/components/Navbar.vue ***!
@@ -31226,6 +31415,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TermsOfService_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TermsOfService.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Pages/TermsOfService.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TermsOfService_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Hero.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./resources/js/components/Hero.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Hero.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Hero.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -32142,6 +32347,40 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TermsOfService_vue_vue_type_template_id_63d45180___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TermsOfService_vue_vue_type_template_id_63d45180___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./TermsOfService.vue?vue&type=template&id=63d45180& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/Pages/TermsOfService.vue?vue&type=template&id=63d45180&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
+  \***************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Footer_vue_vue_type_template_id_61a7c374___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Footer.vue?vue&type=template&id=61a7c374& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true& ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_template_id_7ebbb9e5_scoped_true___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_template_id_7ebbb9e5_scoped_true___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Hero_vue_vue_type_template_id_7ebbb9e5_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true&");
 
 
 /***/ }),
@@ -33746,7 +33985,13 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [_c("Navbar"), _vm._v(" "), _c("main", [_vm._t("default")], 2)],
+    [
+      _c("Navbar"),
+      _vm._v(" "),
+      _c("main", [_vm._t("default")], 2),
+      _vm._v(" "),
+      _c("Footer")
+    ],
     1
   )
 }
@@ -35462,7 +35707,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("app-layout", [
-    _c("div", { staticClass: "container mx-auto py-32" }, [
+    _c("div", { staticClass: "container py-32 mx-auto" }, [
       _c("h1", [_vm._v("All Courses")])
     ])
   ])
@@ -35490,7 +35735,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("app-layout", [_c("div", [_vm._v("\n        Dashboard\n    ")])])
+  return _c("app-layout", [
+    _c("div", [_vm._v("\r\n        Dashboard\r\n    ")])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -35515,297 +35762,103 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("app-layout", [
-    _c("div", { staticClass: "container py-32 mx-auto" }, [
-      _c("div", { staticClass: "flex" }, [
-        _c("div", { staticClass: "self-center w-1/2 my-20 ml-20 mr-8" }, [
-          _c("h1", { staticClass: "text-4xl font-bold" }, [
-            _vm._v("Aspire for more")
-          ]),
-          _vm._v(" "),
-          _c("p", { staticClass: "text-xl" }, [
-            _vm._v(
-              "\r\n          Learning keeps you in the lead. Get in-demand skills to impress\r\n          anyone.\r\n        "
+  return _c(
+    "app-layout",
+    [
+      _c("Hero"),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "flex flex-wrap justify-center mt-20 ml-8 mr-8" },
+        [
+          _c("div", { staticClass: "flex justify-center w-full mb-6" }, [
+            _c(
+              "h1",
+              { staticClass: "text-4xl font-medium ", attrs: { id: "browse" } },
+              [_vm._v("Browse Our Top Courses")]
+            )
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "grid grid-cols-1 gap-6 mx-6 mt-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        },
+        _vm._l(_vm.courses, function(course) {
+          return _c(
+            "div",
+            {
+              key: course.id,
+              staticClass:
+                "w-full max-w-sm mx-auto overflow-hidden rounded-md shadow-md"
+            },
+            [
+              _c("div", {
+                staticClass: "flex items-end justify-end w-full h-56 bg-cover",
+                staticStyle: {
+                  "background-image":
+                    "url('https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80')"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "px-5 py-3" }, [
+                _c("h3", { staticClass: "text-gray-700 uppercase" }, [
+                  _vm._v(_vm._s(course.name))
+                ]),
+                _vm._v(" "),
+                _c("p", { staticClass: "m-2 font-medium" }, [
+                  _vm._v(_vm._s(course.description))
+                ]),
+                _vm._v(" "),
+                _c("span", { staticClass: "mt-2 text-gray-500" }, [
+                  _vm._v(_vm._s(course.price))
+                ])
+              ])
+            ]
+          )
+        }),
+        0
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "flex justify-between w-full h-64 my-48 bg-gray-1000" },
+        [
+          _c("div", { staticClass: "w-1/2 mx-8 my-auto text-gray-100" }, [
+            _c("h1", { staticClass: "text-4xl font-bold" }, [
+              _vm._v("Become An Instructor")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "mt-4 text-xl font-medium" }, [
+              _vm._v(
+                "Teach what you know and help learners explore their interests, gain new skills, and advance their careers."
+              )
+            ]),
+            _vm._v(" "),
+            _c(
+              "button",
+              { staticClass: "px-6 py-2 mt-4 bg-gray-300 text-gray-1000" },
+              [_vm._v("Learn More")]
             )
           ]),
           _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass:
-                "px-8 py-2 mt-8 text-lg font-bold text-white transition duration-500 ease-in-out transform rounded hover:-translate-y-1 hover:scale-110 bg-gradient-to-r from-grad-100 to-grad-200"
-            },
-            [_vm._v("\r\n          Get Started\r\n        ")]
-          ),
-          _vm._v(" "),
-          _c(
-            "button",
-            {
-              staticClass:
-                "px-8 py-2 mt-8 ml-4 text-lg font-bold transition duration-500 ease-in-out transform border-2 rounded text-gray-50 hover:-translate-y-1 hover:scale-110"
-            },
-            [_vm._v("\r\n          Browse Courses\r\n        ")]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "w-1/2" }, [
-          _c(
-            "svg",
-            {
+          _c("div", { staticClass: "w-1/3 mr-20 overflow-visible" }, [
+            _c("img", {
+              staticClass: "-mt-10 rounded-sm shadow-md",
               attrs: {
-                id: "a36694c7-9e7e-4fa0-bd34-1ff06c34a584",
-                "data-name": "Layer 1",
-                xmlns: "http://www.w3.org/2000/svg",
-                width: "600.86663",
-                height: "600.50661",
-                viewBox: "0 0 1089.86663 822.50661"
+                src:
+                  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
               }
-            },
-            [
-              _c("title", [_vm._v("certificate")]),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M988.80331,484.3133c0,126.51-74.17,238.43-187.87,306.56-72.9,43.69-162.06,69.38-258.33,69.38-128.25,0-226.08-48.47-299.67-122.72-67.83-68.42-115.06-158.75-146.53-253.22-140.49-421.79,94.2-536.86,446.2-375.94C766.72329,210.84327,988.80331,276.69331,988.80331,484.3133Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#ad79d0"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M800.93331,263.50331v528.37c-72.9,43.69-162.06,69.38-258.33,69.38-128.25,0-226.08-48.47-299.67-122.72v-475.03Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#f2f2f2"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M296.60406,520.9551a349.10769,349.10769,0,0,1,90.1557-16.07316,282.15087,282.15087,0,0,1,45.97047,1.7986,287.56233,287.56233,0,0,1,44.61626,9.55207c14.4206,4.17522,28.64209,8.99849,43.01405,13.33329a401.17806,401.17806,0,0,0,44.45525,10.84819,376.87356,376.87356,0,0,0,45.16986,5.38371c15.00305.87194,30.15309,1.0421,45.11414-.55621a138.0256,138.0256,0,0,0,40.59011-10.28933A123.97053,123.97053,0,0,0,728.70055,513.779q3.67222-3.2781,7.06609-6.84515c1.33469-1.39522-.78353-3.51978-2.12132-2.12132-19.12461,19.99191-44.26195,32.38806-71.527,36.52762-14.853,2.25509-29.98981,2.38592-44.97348,1.80438a370.06082,370.06082,0,0,1-45.71483-4.619A382.03123,382.03123,0,0,1,527.155,528.4477c-14.28794-4.13931-28.38132-8.91171-42.61931-13.21479a320.72782,320.72782,0,0,0-43.87857-10.45407,275.93839,275.93839,0,0,0-45.01855-3.12473A344.20143,344.20143,0,0,0,306.666,514.82967q-5.45484,1.53164-10.85948,3.23259c-1.836.5756-1.05209,3.47271.79752,2.89284Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M296.60406,596.9551a349.10769,349.10769,0,0,1,90.1557-16.07316,282.15087,282.15087,0,0,1,45.97047,1.7986,287.56233,287.56233,0,0,1,44.61626,9.55207c14.4206,4.17522,28.64209,8.99849,43.01405,13.33329a401.17806,401.17806,0,0,0,44.45525,10.84819,376.87356,376.87356,0,0,0,45.16986,5.38371c15.00305.87194,30.15309,1.0421,45.11414-.55621a138.0256,138.0256,0,0,0,40.59011-10.28933A123.97053,123.97053,0,0,0,728.70055,589.779q3.67222-3.2781,7.06609-6.84515c1.33469-1.39522-.78353-3.51978-2.12132-2.12132-19.12461,19.99191-44.26195,32.38806-71.527,36.52762-14.853,2.25509-29.98981,2.38592-44.97348,1.80438a370.06082,370.06082,0,0,1-45.71483-4.619A382.03123,382.03123,0,0,1,527.155,604.4477c-14.28794-4.13931-28.38132-8.91171-42.61931-13.21479a320.72782,320.72782,0,0,0-43.87857-10.45407,275.93839,275.93839,0,0,0-45.01855-3.12473A344.20143,344.20143,0,0,0,306.666,590.82967q-5.45484,1.53164-10.85948,3.23259c-1.836.5756-1.05209,3.47271.79752,2.89284Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M296.60406,451.9551a349.10769,349.10769,0,0,1,90.1557-16.07316,282.15087,282.15087,0,0,1,45.97047,1.7986,287.56233,287.56233,0,0,1,44.61626,9.55207c14.4206,4.17522,28.64209,8.99849,43.01405,13.33329a401.17806,401.17806,0,0,0,44.45525,10.84819,376.87356,376.87356,0,0,0,45.16986,5.38371c15.00305.87194,30.15309,1.0421,45.11414-.55621a138.0256,138.0256,0,0,0,40.59011-10.28933A123.97053,123.97053,0,0,0,728.70055,444.779q3.67222-3.2781,7.06609-6.84515c1.33469-1.39522-.78353-3.51978-2.12132-2.12132-19.12461,19.99191-44.26195,32.38806-71.527,36.52762-14.853,2.25509-29.98981,2.38592-44.97348,1.80438A370.06082,370.06082,0,0,1,571.43,469.52557,382.03123,382.03123,0,0,1,527.155,459.4477c-14.28794-4.13931-28.38132-8.91171-42.61931-13.21479a320.72782,320.72782,0,0,0-43.87857-10.45407,275.93839,275.93839,0,0,0-45.01855-3.12473A344.20143,344.20143,0,0,0,306.666,445.82967q-5.45484,1.53163-10.85948,3.23259c-1.836.5756-1.05209,3.47271.79752,2.89284Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M293.02966,321.49617c7.25838-3.21556,15.5732-2.65483,23.1061-.79035,8.12236,2.01037,15.771,5.50661,23.76662,7.924a82.27145,82.27145,0,0,0,43.97788.83424,81.06329,81.06329,0,0,0,23.03191-9.8719c1.63065-1.025.12677-3.62188-1.51415-2.59041a79.4874,79.4874,0,0,1-42.31964,12.06472,77.64725,77.64725,0,0,1-22.15352-3.262c-7.93732-2.3799-15.52474-5.83513-23.56552-7.88447-8.51912-2.17125-17.65485-2.6421-25.84384.98574-1.76158.7804-.237,3.36618,1.51416,2.59041Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("circle", {
-                attrs: {
-                  cx: "460.86663",
-                  cy: "696.75661",
-                  r: "46",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("circle", {
-                attrs: {
-                  cx: "212.86663",
-                  cy: "105.75661",
-                  r: "25",
-                  fill: "#f2f2f2"
-                }
-              }),
-              _vm._v(" "),
-              _c("circle", {
-                attrs: {
-                  cx: "431.86663",
-                  cy: "176.75661",
-                  r: "17",
-                  fill: "#f2f2f2"
-                }
-              }),
-              _vm._v(" "),
-              _c("circle", {
-                attrs: {
-                  cx: "155.86663",
-                  cy: "339.75661",
-                  r: "17",
-                  fill: "#f2f2f2"
-                }
-              }),
-              _vm._v(" "),
-              _c("rect", {
-                attrs: {
-                  x: "85.547",
-                  y: "213.46424",
-                  width: "1.8747",
-                  height: "335.24432",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("ellipse", {
-                attrs: {
-                  cx: "86.84593",
-                  cy: "436.55402",
-                  rx: "36.55673",
-                  ry: "83.42433",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("ellipse", {
-                attrs: {
-                  cx: "86.84593",
-                  cy: "246.27156",
-                  rx: "36.55673",
-                  ry: "83.42433",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M142.81061,216.86068l-1.796-.53824c.1135-.379,11.13471-38.14721-6.962-62.4607-10.22116-13.73165-27.76036-20.69451-52.13059-20.69451v-1.87471c24.9991,0,43.04588,7.21917,53.6396,21.457C154.21857,177.82509,142.92686,216.47347,142.81061,216.86068Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("circle", {
-                attrs: {
-                  cx: "26.8554",
-                  cy: "93.48318",
-                  r: "23.4338",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M825.8065,663.424,808.274,824.72309H929.24832l5.25976-12.27276,7.013,12.27276h113.96133s-8.76625-166.55887-24.54551-171.81863S825.8065,663.424,825.8065,663.424Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#2f2e41"
-                }
-              }),
-              _vm._v(" "),
-              _c("circle", {
-                attrs: {
-                  cx: "874.18164",
-                  cy: "209.15673",
-                  r: "61.36379",
-                  fill: "#ffb8b8"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M894.1833,286.475s5.25975,56.104,0,59.61054,84.15606,1.75326,84.15606,1.75326-12.27276-50.84429,0-75.38981Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#ffb8b8"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M925.74182,333.81273s45.11322,7.02643,48.85538-7.00629l23.02792,31.55181,1.75325,315.58523s-187.59788,22.79227-194.61089-14.026,71.88331-327.858,71.88331-327.858l19.86216-1.28572S922.23532,333.81273,925.74182,333.81273Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#d0cde1"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M896.21439,316.37533l-30.08311,10.4244-85.90931,21.039,3.5065,210.39015s-73.63655,210.39015-40.32478,226.16941,80.64956-21.039,94.67557-47.33779,63.117-390.975,63.117-397.988S896.21439,316.37533,896.21439,316.37533Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M973.47025,316.37533l11.88211,10.4244,84.15606,38.57153-42.078,212.1434s56.104,192.85764,35.065,203.37715-52.59754,40.32478-59.61054,22.79226S954.57513,335.7562,973.47025,316.37533Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M1022.17064,596.80042s-78.89631-33.31177-80.64956-3.5065,89.41582,50.84429,89.41582,42.078S1022.17064,596.80042,1022.17064,596.80042Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#ffb8b8"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M829.313,584.52767s91.16907,68.37679,56.104,85.90931-80.64956-61.3638-80.64956-61.3638Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#ffb8b8"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M956.49132,158.01513a3.38451,3.38451,0,0,1,3.25676-1.93273c-28.09345-1.68046-57.68462,1.59391-81.18765,17.0753-6.58229,4.33573-12.72923,9.6376-20.22289,12.081l6.08267,4.77011-7.26763,2.21543,10.69544,6.91263a9.27045,9.27045,0,0,1-8.82861,2.95773c4.64818,1.358,8.07046,5.49439,9.80869,10.01416s2.05052,9.44217,2.34418,14.27575c1.79656-6.9743,9.408-11.07972,16.59785-11.49687s14.2019,1.95512,21.19907,3.66045a117.27154,117.27154,0,0,0,46.548,1.79065c-5.25649,10.54877-.82242,23.13119,3.63955,34.03981L968.066,276.1598c4.94626.49749,8.44239-4.42141,12.16886-7.71176,3.39641-2.99892-10.12543,23.37638-8.03185,22.41,2.71982-1.25539,31.42131-32.94373,32.76537-35.62084,6.13213-12.21409,9.81123-25.8377,9.25789-39.4935s-5.55-27.31832-14.96291-37.2275c-6.39033-6.72714-15.23132-7.90529-21.746-13.49635-2.56408-2.20055-2.57349-3.91969-6.09717-5.20273C970.24979,159.391,956.68486,157.58563,956.49132,158.01513Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#2f2e41"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M792.49472,353.0985,780.222,347.83875,682.0399,509.13786s-17.53252,42.078,14.026,61.3638S801.261,647.64471,801.261,647.64471l42.078-64.8703s-85.90931-40.32478-80.64956-56.104,33.31178-57.85729,33.31178-57.85729Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              }),
-              _vm._v(" "),
-              _c("path", {
-                attrs: {
-                  d:
-                    "M1046.71616,361.86476l22.79226,3.5065s94.67557,185.84463,71.88331,220.90966S1025.67714,670.437,1025.67714,670.437s-1.75325-57.85729-17.53251-78.89631l54.35079-21.039-29.80527-115.71459Z",
-                  transform: "translate(-55.06669 -38.74669)",
-                  fill: "#3f3d56"
-                }
-              })
-            ]
-          )
-        ])
-      ])
-    ])
-  ])
+            })
+          ])
+        ]
+      )
+    ],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38642,6 +38695,424 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Footer.vue?vue&type=template&id=61a7c374& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("footer", { staticClass: "w-full px-4 py-6 mt-32 bg-gray-300 " }, [
+    _c("div", { staticClass: "flex items-center justify-center my-4" }, [
+      _c("div", { staticClass: "flex items-center" }, [
+        _c("a", { attrs: { href: "#" } }, [
+          _c(
+            "svg",
+            {
+              staticClass: "w-6 h-6 mr-6 fill-current text-gray-1000",
+              attrs: { viewBox: "0 0 512 512" }
+            },
+            [
+              _c("path", {
+                attrs: {
+                  d:
+                    "M455.27,32H56.73A24.74,24.74,0,0,0,32,56.73V455.27A24.74,24.74,0,0,0,56.73,480H256V304H202.45V240H256V189c0-57.86,40.13-89.36,91.82-89.36,24.73,0,51.33,1.86,57.51,2.68v60.43H364.15c-28.12,0-33.48,13.3-33.48,32.9V240h67l-8.75,64H330.67V480h124.6A24.74,24.74,0,0,0,480,455.27V56.73A24.74,24.74,0,0,0,455.27,32Z"
+                }
+              })
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [
+          _c(
+            "svg",
+            {
+              staticClass: "w-6 h-6 mr-6 fill-current text-gray-1000",
+              attrs: { viewBox: "0 0 512 512" }
+            },
+            [
+              _c("path", {
+                attrs: {
+                  d:
+                    "M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z"
+                }
+              })
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("a", { attrs: { href: "#" } }, [
+          _c(
+            "svg",
+            {
+              staticClass: "w-6 h-6 mr-6 fill-current text-gray-1000",
+              attrs: { viewBox: "0 0 512 512" }
+            },
+            [
+              _c("path", {
+                attrs: {
+                  d:
+                    "M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z"
+                }
+              })
+            ]
+          )
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(0)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "flex justify-center mr-8" }, [
+      _c("p", { staticClass: "text-gray-1000" }, [
+        _vm._v("© All rights reserved 2021")
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Hero.vue?vue&type=template&id=7ebbb9e5&scoped=true& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container py-20 mx-auto" }, [
+    _c("div", { staticClass: "flex" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "w-1/2" }, [
+        _c(
+          "svg",
+          {
+            attrs: {
+              id: "a36694c7-9e7e-4fa0-bd34-1ff06c34a584",
+              "data-name": "Layer 1",
+              xmlns: "http://www.w3.org/2000/svg",
+              width: "600.86663",
+              height: "600.50661",
+              viewBox: "0 0 1089.86663 822.50661"
+            }
+          },
+          [
+            _c("path", {
+              attrs: {
+                d:
+                  "M988.80331,484.3133c0,126.51-74.17,238.43-187.87,306.56-72.9,43.69-162.06,69.38-258.33,69.38-128.25,0-226.08-48.47-299.67-122.72-67.83-68.42-115.06-158.75-146.53-253.22-140.49-421.79,94.2-536.86,446.2-375.94C766.72329,210.84327,988.80331,276.69331,988.80331,484.3133Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#ad79d0"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M800.93331,263.50331v528.37c-72.9,43.69-162.06,69.38-258.33,69.38-128.25,0-226.08-48.47-299.67-122.72v-475.03Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#f2f2f2"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M296.60406,520.9551a349.10769,349.10769,0,0,1,90.1557-16.07316,282.15087,282.15087,0,0,1,45.97047,1.7986,287.56233,287.56233,0,0,1,44.61626,9.55207c14.4206,4.17522,28.64209,8.99849,43.01405,13.33329a401.17806,401.17806,0,0,0,44.45525,10.84819,376.87356,376.87356,0,0,0,45.16986,5.38371c15.00305.87194,30.15309,1.0421,45.11414-.55621a138.0256,138.0256,0,0,0,40.59011-10.28933A123.97053,123.97053,0,0,0,728.70055,513.779q3.67222-3.2781,7.06609-6.84515c1.33469-1.39522-.78353-3.51978-2.12132-2.12132-19.12461,19.99191-44.26195,32.38806-71.527,36.52762-14.853,2.25509-29.98981,2.38592-44.97348,1.80438a370.06082,370.06082,0,0,1-45.71483-4.619A382.03123,382.03123,0,0,1,527.155,528.4477c-14.28794-4.13931-28.38132-8.91171-42.61931-13.21479a320.72782,320.72782,0,0,0-43.87857-10.45407,275.93839,275.93839,0,0,0-45.01855-3.12473A344.20143,344.20143,0,0,0,306.666,514.82967q-5.45484,1.53164-10.85948,3.23259c-1.836.5756-1.05209,3.47271.79752,2.89284Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M296.60406,596.9551a349.10769,349.10769,0,0,1,90.1557-16.07316,282.15087,282.15087,0,0,1,45.97047,1.7986,287.56233,287.56233,0,0,1,44.61626,9.55207c14.4206,4.17522,28.64209,8.99849,43.01405,13.33329a401.17806,401.17806,0,0,0,44.45525,10.84819,376.87356,376.87356,0,0,0,45.16986,5.38371c15.00305.87194,30.15309,1.0421,45.11414-.55621a138.0256,138.0256,0,0,0,40.59011-10.28933A123.97053,123.97053,0,0,0,728.70055,589.779q3.67222-3.2781,7.06609-6.84515c1.33469-1.39522-.78353-3.51978-2.12132-2.12132-19.12461,19.99191-44.26195,32.38806-71.527,36.52762-14.853,2.25509-29.98981,2.38592-44.97348,1.80438a370.06082,370.06082,0,0,1-45.71483-4.619A382.03123,382.03123,0,0,1,527.155,604.4477c-14.28794-4.13931-28.38132-8.91171-42.61931-13.21479a320.72782,320.72782,0,0,0-43.87857-10.45407,275.93839,275.93839,0,0,0-45.01855-3.12473A344.20143,344.20143,0,0,0,306.666,590.82967q-5.45484,1.53164-10.85948,3.23259c-1.836.5756-1.05209,3.47271.79752,2.89284Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M296.60406,451.9551a349.10769,349.10769,0,0,1,90.1557-16.07316,282.15087,282.15087,0,0,1,45.97047,1.7986,287.56233,287.56233,0,0,1,44.61626,9.55207c14.4206,4.17522,28.64209,8.99849,43.01405,13.33329a401.17806,401.17806,0,0,0,44.45525,10.84819,376.87356,376.87356,0,0,0,45.16986,5.38371c15.00305.87194,30.15309,1.0421,45.11414-.55621a138.0256,138.0256,0,0,0,40.59011-10.28933A123.97053,123.97053,0,0,0,728.70055,444.779q3.67222-3.2781,7.06609-6.84515c1.33469-1.39522-.78353-3.51978-2.12132-2.12132-19.12461,19.99191-44.26195,32.38806-71.527,36.52762-14.853,2.25509-29.98981,2.38592-44.97348,1.80438A370.06082,370.06082,0,0,1,571.43,469.52557,382.03123,382.03123,0,0,1,527.155,459.4477c-14.28794-4.13931-28.38132-8.91171-42.61931-13.21479a320.72782,320.72782,0,0,0-43.87857-10.45407,275.93839,275.93839,0,0,0-45.01855-3.12473A344.20143,344.20143,0,0,0,306.666,445.82967q-5.45484,1.53163-10.85948,3.23259c-1.836.5756-1.05209,3.47271.79752,2.89284Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M293.02966,321.49617c7.25838-3.21556,15.5732-2.65483,23.1061-.79035,8.12236,2.01037,15.771,5.50661,23.76662,7.924a82.27145,82.27145,0,0,0,43.97788.83424,81.06329,81.06329,0,0,0,23.03191-9.8719c1.63065-1.025.12677-3.62188-1.51415-2.59041a79.4874,79.4874,0,0,1-42.31964,12.06472,77.64725,77.64725,0,0,1-22.15352-3.262c-7.93732-2.3799-15.52474-5.83513-23.56552-7.88447-8.51912-2.17125-17.65485-2.6421-25.84384.98574-1.76158.7804-.237,3.36618,1.51416,2.59041Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("circle", {
+              attrs: {
+                cx: "460.86663",
+                cy: "696.75661",
+                r: "46",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("circle", {
+              attrs: {
+                cx: "212.86663",
+                cy: "105.75661",
+                r: "25",
+                fill: "#f2f2f2"
+              }
+            }),
+            _vm._v(" "),
+            _c("circle", {
+              attrs: {
+                cx: "431.86663",
+                cy: "176.75661",
+                r: "17",
+                fill: "#f2f2f2"
+              }
+            }),
+            _vm._v(" "),
+            _c("circle", {
+              attrs: {
+                cx: "155.86663",
+                cy: "339.75661",
+                r: "17",
+                fill: "#f2f2f2"
+              }
+            }),
+            _vm._v(" "),
+            _c("rect", {
+              attrs: {
+                x: "85.547",
+                y: "213.46424",
+                width: "1.8747",
+                height: "335.24432",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("ellipse", {
+              attrs: {
+                cx: "86.84593",
+                cy: "436.55402",
+                rx: "36.55673",
+                ry: "83.42433",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("ellipse", {
+              attrs: {
+                cx: "86.84593",
+                cy: "246.27156",
+                rx: "36.55673",
+                ry: "83.42433",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M142.81061,216.86068l-1.796-.53824c.1135-.379,11.13471-38.14721-6.962-62.4607-10.22116-13.73165-27.76036-20.69451-52.13059-20.69451v-1.87471c24.9991,0,43.04588,7.21917,53.6396,21.457C154.21857,177.82509,142.92686,216.47347,142.81061,216.86068Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("circle", {
+              attrs: {
+                cx: "26.8554",
+                cy: "93.48318",
+                r: "23.4338",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M825.8065,663.424,808.274,824.72309H929.24832l5.25976-12.27276,7.013,12.27276h113.96133s-8.76625-166.55887-24.54551-171.81863S825.8065,663.424,825.8065,663.424Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#2f2e41"
+              }
+            }),
+            _vm._v(" "),
+            _c("circle", {
+              attrs: {
+                cx: "874.18164",
+                cy: "209.15673",
+                r: "61.36379",
+                fill: "#ffb8b8"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M894.1833,286.475s5.25975,56.104,0,59.61054,84.15606,1.75326,84.15606,1.75326-12.27276-50.84429,0-75.38981Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#ffb8b8"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M925.74182,333.81273s45.11322,7.02643,48.85538-7.00629l23.02792,31.55181,1.75325,315.58523s-187.59788,22.79227-194.61089-14.026,71.88331-327.858,71.88331-327.858l19.86216-1.28572S922.23532,333.81273,925.74182,333.81273Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#d0cde1"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M896.21439,316.37533l-30.08311,10.4244-85.90931,21.039,3.5065,210.39015s-73.63655,210.39015-40.32478,226.16941,80.64956-21.039,94.67557-47.33779,63.117-390.975,63.117-397.988S896.21439,316.37533,896.21439,316.37533Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M973.47025,316.37533l11.88211,10.4244,84.15606,38.57153-42.078,212.1434s56.104,192.85764,35.065,203.37715-52.59754,40.32478-59.61054,22.79226S954.57513,335.7562,973.47025,316.37533Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M1022.17064,596.80042s-78.89631-33.31177-80.64956-3.5065,89.41582,50.84429,89.41582,42.078S1022.17064,596.80042,1022.17064,596.80042Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#ffb8b8"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M829.313,584.52767s91.16907,68.37679,56.104,85.90931-80.64956-61.3638-80.64956-61.3638Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#ffb8b8"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M956.49132,158.01513a3.38451,3.38451,0,0,1,3.25676-1.93273c-28.09345-1.68046-57.68462,1.59391-81.18765,17.0753-6.58229,4.33573-12.72923,9.6376-20.22289,12.081l6.08267,4.77011-7.26763,2.21543,10.69544,6.91263a9.27045,9.27045,0,0,1-8.82861,2.95773c4.64818,1.358,8.07046,5.49439,9.80869,10.01416s2.05052,9.44217,2.34418,14.27575c1.79656-6.9743,9.408-11.07972,16.59785-11.49687s14.2019,1.95512,21.19907,3.66045a117.27154,117.27154,0,0,0,46.548,1.79065c-5.25649,10.54877-.82242,23.13119,3.63955,34.03981L968.066,276.1598c4.94626.49749,8.44239-4.42141,12.16886-7.71176,3.39641-2.99892-10.12543,23.37638-8.03185,22.41,2.71982-1.25539,31.42131-32.94373,32.76537-35.62084,6.13213-12.21409,9.81123-25.8377,9.25789-39.4935s-5.55-27.31832-14.96291-37.2275c-6.39033-6.72714-15.23132-7.90529-21.746-13.49635-2.56408-2.20055-2.57349-3.91969-6.09717-5.20273C970.24979,159.391,956.68486,157.58563,956.49132,158.01513Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#2f2e41"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M792.49472,353.0985,780.222,347.83875,682.0399,509.13786s-17.53252,42.078,14.026,61.3638S801.261,647.64471,801.261,647.64471l42.078-64.8703s-85.90931-40.32478-80.64956-56.104,33.31178-57.85729,33.31178-57.85729Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            }),
+            _vm._v(" "),
+            _c("path", {
+              attrs: {
+                d:
+                  "M1046.71616,361.86476l22.79226,3.5065s94.67557,185.84463,71.88331,220.90966S1025.67714,670.437,1025.67714,670.437s-1.75325-57.85729-17.53251-78.89631l54.35079-21.039-29.80527-115.71459Z",
+                transform: "translate(-55.06669 -38.74669)",
+                fill: "#3f3d56"
+              }
+            })
+          ]
+        )
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "self-center w-1/2 my-20 ml-20 mr-8" }, [
+      _c("h1", { staticClass: "text-4xl font-bold" }, [
+        _vm._v("Aspire for more")
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "text-xl" }, [
+        _vm._v(
+          "\n       Learning keeps you in the lead. Get in-demand skills to impress\n       anyone.\n     "
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flex mt-2" }, [
+        _c(
+          "a",
+          {
+            staticClass:
+              "px-8 py-2 mt-8 text-lg font-bold text-white rounded bg-gradient-to-r from-grad-100 to-grad-200",
+            attrs: { href: "/register" }
+          },
+          [_vm._v("\n       Get Started\n     ")]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass:
+              "px-8 py-2 mt-8 ml-4 text-lg font-bold border-2 rounded text-gray-50",
+            attrs: { href: "#browse" }
+          },
+          [_vm._v("\n       Browse Courses\n     ")]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b& ***!
@@ -38673,14 +39144,14 @@ var render = function() {
                 _c("div", { staticClass: "flex" }, [
                   _c(
                     "div",
-                    { staticClass: "flex-shrink-0 flex items-center" },
+                    { staticClass: "flex items-center flex-shrink-0" },
                     [
                       _c(
                         "inertia-link",
                         { attrs: { href: _vm.route("home") } },
                         [
                           _c("jet-application-mark", {
-                            staticClass: "block h-9 w-auto"
+                            staticClass: "block w-auto h-9"
                           })
                         ],
                         1
@@ -38739,7 +39210,7 @@ var render = function() {
                       [
                         _c(
                           "div",
-                          { staticClass: "ml-3 relative" },
+                          { staticClass: "relative ml-3" },
                           [
                             _vm.$page.props.jetstream.hasTeamFeatures
                               ? _c("jet-dropdown", {
@@ -38761,7 +39232,7 @@ var render = function() {
                                                   "button",
                                                   {
                                                     staticClass:
-                                                      "inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:bg-gray-100 hover:text-gray-700 focus:outline-none focus:bg-gray-100 active:bg-gray-100 transition ease-in-out duration-150",
+                                                      "inline-flex items-center px-3 py-2 text-sm font-medium leading-4 text-gray-500 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:bg-gray-100 hover:text-gray-700 focus:outline-none focus:bg-gray-100 active:bg-gray-100",
                                                     attrs: { type: "button" }
                                                   },
                                                   [
@@ -38933,7 +39404,7 @@ var render = function() {
                                                                               "svg",
                                                                               {
                                                                                 staticClass:
-                                                                                  "mr-2 h-5 w-5 text-green-400",
+                                                                                  "w-5 h-5 mr-2 text-green-400",
                                                                                 attrs: {
                                                                                   fill:
                                                                                     "none",
@@ -38997,7 +39468,7 @@ var render = function() {
                                     ],
                                     null,
                                     false,
-                                    1075164774
+                                    1252726566
                                   )
                                 })
                               : _vm._e()
@@ -39007,7 +39478,7 @@ var render = function() {
                         _vm._v(" "),
                         _c(
                           "div",
-                          { staticClass: "ml-3 relative" },
+                          { staticClass: "relative ml-3" },
                           [
                             _c("jet-dropdown", {
                               attrs: { align: "right", width: "48" },
@@ -39023,12 +39494,12 @@ var render = function() {
                                               "button",
                                               {
                                                 staticClass:
-                                                  "flex text-sm border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300 transition duration-150 ease-in-out"
+                                                  "flex text-sm transition duration-150 ease-in-out border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300"
                                               },
                                               [
                                                 _c("img", {
                                                   staticClass:
-                                                    "h-8 w-8 rounded-full object-cover",
+                                                    "object-cover w-8 h-8 rounded-full",
                                                   attrs: {
                                                     src:
                                                       _vm.$page.props.user
@@ -39050,7 +39521,7 @@ var render = function() {
                                                   "button",
                                                   {
                                                     staticClass:
-                                                      "inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 bg-white hover:text-gray-700 focus:outline-none transition ease-in-out duration-150",
+                                                      "inline-flex items-center px-3 py-2 text-sm font-medium leading-4 text-gray-500 transition duration-150 ease-in-out bg-white border border-transparent rounded-md hover:text-gray-700 focus:outline-none",
                                                     attrs: { type: "button" }
                                                   },
                                                   [
@@ -39193,7 +39664,7 @@ var render = function() {
                                 ],
                                 null,
                                 false,
-                                2007592433
+                                1316398481
                               )
                             })
                           ],
@@ -39209,7 +39680,7 @@ var render = function() {
                           "inertia-link",
                           {
                             staticClass:
-                              "px-8 py-2 text-sm font-bold text-gray-600 transition duration-500 ease-in-out transform rounded-md hover:-translate-y-1 hover:scale-110 border-logo",
+                              "px-8 py-2 text-sm font-bold text-gray-600 rounded-md border-logo",
                             attrs: { href: _vm.route("login") }
                           },
                           [_vm._v("\n              Log in\n            ")]
@@ -39219,7 +39690,7 @@ var render = function() {
                           "inertia-link",
                           {
                             staticClass:
-                              "px-8 py-2 ml-4 text-sm font-bold text-white transition duration-500 ease-in-out transform rounded-md hover:-translate-y-1 hover:scale-110 bg-gradient-to-r from-grad-100 to-grad-200",
+                              "px-8 py-2 mx-4 text-sm font-bold text-white rounded-md bg-gradient-to-r from-grad-100 to-grad-200",
                             attrs: { href: _vm.route("register") }
                           },
                           [_vm._v("\n              Register\n            ")]
@@ -39230,13 +39701,13 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "div",
-                  { staticClass: "-mr-2 flex items-center sm:hidden" },
+                  { staticClass: "flex items-center -mr-2 sm:hidden" },
                   [
                     _c(
                       "button",
                       {
                         staticClass:
-                          "inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out",
+                          "inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500",
                         on: {
                           click: function($event) {
                             _vm.showingNavigationDropdown = !_vm.showingNavigationDropdown
@@ -39247,7 +39718,7 @@ var render = function() {
                         _c(
                           "svg",
                           {
-                            staticClass: "h-6 w-6",
+                            staticClass: "w-6 h-6",
                             attrs: {
                               stroke: "currentColor",
                               fill: "none",
@@ -39361,7 +39832,7 @@ var render = function() {
                             ? _c("div", { staticClass: "flex-shrink-0 mr-3" }, [
                                 _c("img", {
                                   staticClass:
-                                    "h-10 w-10 rounded-full object-cover",
+                                    "object-cover w-10 h-10 rounded-full",
                                   attrs: {
                                     src: _vm.$page.props.user.profile_photo_url,
                                     alt: _vm.$page.props.user.name
@@ -39375,7 +39846,7 @@ var render = function() {
                               "div",
                               {
                                 staticClass:
-                                  "font-medium text-base text-gray-800"
+                                  "text-base font-medium text-gray-800"
                               },
                               [
                                 _vm._v(
@@ -39389,7 +39860,7 @@ var render = function() {
                             _c(
                               "div",
                               {
-                                staticClass: "font-medium text-sm text-gray-500"
+                                staticClass: "text-sm font-medium text-gray-500"
                               },
                               [
                                 _vm._v(
@@ -39583,7 +40054,7 @@ var render = function() {
                                                           "svg",
                                                           {
                                                             staticClass:
-                                                              "mr-2 h-5 w-5 text-green-400",
+                                                              "w-5 h-5 mr-2 text-green-400",
                                                             attrs: {
                                                               fill: "none",
                                                               "stroke-linecap":
@@ -39666,7 +40137,7 @@ var render = function() {
                 _c(
                   "div",
                   {
-                    staticClass: "max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"
+                    staticClass: "px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8"
                   },
                   [_vm._t("header")],
                   2

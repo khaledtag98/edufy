@@ -1388,16 +1388,16 @@
         },
         {
             "name": "laravel/jetstream",
-            "version": "v2.1.4",
+            "version": "v2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/jetstream.git",
-                "reference": "5bac1016b90ee0148d5e7d950b04b814977918e7"
+                "reference": "b6c585ec900531c35e4b83e65c044f4b2ce7f5dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/jetstream/zipball/5bac1016b90ee0148d5e7d950b04b814977918e7",
-                "reference": "5bac1016b90ee0148d5e7d950b04b814977918e7",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/b6c585ec900531c35e4b83e65c044f4b2ce7f5dd",
+                "reference": "b6c585ec900531c35e4b83e65c044f4b2ce7f5dd",
                 "shasum": ""
             },
             "require": {
