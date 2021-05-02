@@ -216,7 +216,7 @@
 
               <inertia-link
                 :href="route('register')"
-                class="px-8 py-2 mx-4 text-sm font-bold text-white rounded-md bg-gradient-to-r from-grad-100 to-grad-200"
+                class="px-8 py-2 mx-4 text-sm font-bold text-white rounded-md bg-gray-1000"
               >
                 Register
               </inertia-link>
