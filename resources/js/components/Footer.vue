@@ -1,6 +1,6 @@
 <template>
     <!-- footer -->
-    <footer class="w-full px-4 py-6 mt-32 bg-gray-300 "><!-- marging just for display-->
+    <footer class="w-full px-4 py-6 mt-32 bg-gray-100 "><!-- marging just for display-->
         
         <div class="flex items-center justify-center my-4">
             

@@ -462,7 +462,9 @@ export default {
       showingNavigationDropdown: false,
     };
   },
-
+// mounted(){
+//   console.log(this.$page.props.user);
+// },
   methods: {
     switchToTeam(team) {
       this.$inertia.put(

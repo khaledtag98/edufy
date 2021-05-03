@@ -1,21 +1,20 @@
 <template>
-<app-layout>
-  <div class="container py-32 mx-auto">
-      <h1>All Courses</h1>
-  </div>
+  <app-layout>
+    <coursesHeroSection />
+    <CoursesSearch />
   </app-layout>
 </template>
 
 <script>
-import AppLayout from '../Layouts/AppLayout.vue'
-
+import coursesHeroSection from "@/components/courses/CoursesHeroSection.vue";
+import CoursesSearch from "@/components/courses/CoursesSearch.vue";
 export default {
-
-}
+  components: {
+    coursesHeroSection,
+    CoursesSearch,
+  },
+};
 </script>
 
 <style>
-
 </style>
-
-AppLayout

@@ -1,6 +1,4 @@
-require('./bootstrap');
 
-// Import modules...
 import Vue from 'vue';
 import { App as InertiaApp, plugin as InertiaPlugin } from '@inertiajs/inertia-vue';
 import PortalVue from 'portal-vue';
@@ -8,7 +6,7 @@ import AppLayout from './Layouts/AppLayout.vue';
 Vue.mixin({ methods: { route } });
 Vue.use(InertiaPlugin);
 Vue.use(PortalVue);
-Vue.component('AppLayout',AppLayout)
+
 const app = document.getElementById('app');
 
 new Vue({
@@ -20,3 +18,5 @@ new Vue({
             },
         }),
 }).$mount(app);
+
+Vue.component('AppLayout', AppLayout)
