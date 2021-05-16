@@ -5,7 +5,7 @@
         id="Capa_1"
         enable-background="new 0 0 512 512"
         height="40"
-        fill="#aa16f8"
+        fill="#40395E"
         viewBox="0 0 512 512"
         width="40"
         xmlns="http://www.w3.org/2000/svg"

@@ -24,4 +24,8 @@ class PagesRouterController extends Controller
     {
         return Inertia::render('Courses');
     }
+    public function teach()
+    {
+        return Inertia::render('Teach');
+    }
 }
