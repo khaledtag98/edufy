@@ -8,7 +8,7 @@
             </div>
           </div>
           <div class="overflow-visible sm:hidden lg:w-1/3 lg:mr-20 md:w-full md:mr-20 md:block lg:block">
-            <img class="mt-0 rounded-sm shadow-md lg:-mt-10" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+            <img class="mt-0 rounded-sm shadow-md sm:hidden lg:-mt-10" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
           </div>
     </div>
 </template>
