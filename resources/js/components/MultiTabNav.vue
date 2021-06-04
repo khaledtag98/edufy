@@ -6,7 +6,7 @@
          <p class="my-auto ml-8 text-lg text-gray-700">Step {{currentStep}} of {{activeSteps}}</p>
         </div>
         <div class="my-auto">
-            <a href="/" class="px-12 py-2 text-lg font-bold text-gray-1000">Exit</a>
+            <a href="/tutor-dashboard" class="px-12 py-2 text-lg font-bold text-gray-1000">Exit</a>
         </div>
     </div>
     

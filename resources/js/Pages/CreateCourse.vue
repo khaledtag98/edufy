@@ -42,9 +42,9 @@ export default{
           }
           else if(flag==1){
               this.currentStep--;
-              if(this.currentStep<=0)
+              if(this.currentStep<=1)
               {
-                  this.currentStep=0;
+                  this.currentStep=1;
               }
           }
           
