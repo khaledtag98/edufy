@@ -34,8 +34,15 @@
                 :href="route('courses')"
                 :active="route().current('courses')"
               >
-                All Courses
+                Courses
               </jet-nav-link>
+              <jet-nav-link
+                :href="route('teach')"
+                :active="route().current('teach')"
+              >
+                Teach
+              </jet-nav-link>
+              
             </div>
             <div
               v-if="$page.props.user"
@@ -286,6 +293,12 @@
               :active="route().current('courses')"
             >
               Courses
+            </jet-responsive-nav-link>
+            <jet-responsive-nav-link
+              :href="route('teach')"
+              :active="route().current('teach')"
+            >
+              Teach
             </jet-responsive-nav-link>
           </div>
 

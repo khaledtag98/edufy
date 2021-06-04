@@ -4,7 +4,7 @@
           <h1 class="text-4xl font-bold text-white ">Come teach with us</h1>
           <p class="font-medium text-gray-200 text-md ">Become an instructor and change <br>lives — including your own</p>
           <div class="mt-8 text-center">
-              <a class="px-24 py-4 text-xl font-bold bg-gray-300 rounded-sm md:px-16 lg:py-2 md:py-2 text-gray-1000">Get Started</a>
+              <a href="/instructor-registration" class="px-24 py-4 text-xl font-bold bg-gray-300 rounded-sm md:px-16 lg:py-2 md:py-2 text-gray-1000">Get Started</a>
           </div>
        </div> 
        <div class="hidden -mt-32 lg:w-1/2 lg:block md:block">

@@ -1,15 +1,15 @@
 <template>
-  <div class="w-full md:w-4/5 lg:w-1/2 xxl:w-2/5 mx-auto pt-32">
+  <div class="w-full pt-32 mx-auto md:w-4/5 lg:w-1/2 xxl:w-2/5">
     <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-x-3">
       <div class="flex justify-center">
         <img
-          class="h-56 w-56 rounded-full object-cover"
+          class="object-cover w-56 h-56 rounded-full"
           :src="$page.props.user.profile_photo_url"
           :alt="$page.props.user.name"
         />
       </div>
-      <div class="text-center self-center">
-        <h2 class="text-4xl block font-semibold self-center">
+      <div class="self-center text-center">
+        <h2 class="self-center block text-4xl font-semibold">
           {{ $page.props.user.name }}
         </h2>
 
@@ -36,12 +36,12 @@
             </g>
           </svg>
 
-          <p class="pl-3 text-gray-500 font-semibold">Alexandia,Egypt</p>
+          <p class="pl-3 font-semibold text-gray-500">Alexandia,Egypt</p>
         </div>
         <div class="block mt-5">
           <a
             :href="route('profile.show')"
-            class="px-8 py-2 mt-8 text-lg font-bold text-white rounded-sm bg-gradient-to-r from-grad-100 to-grad-200"
+            class="px-8 py-2 mt-8 text-lg font-bold text-white rounded-sm bg-gray-1000"
           >
             Edit profile
           </a>

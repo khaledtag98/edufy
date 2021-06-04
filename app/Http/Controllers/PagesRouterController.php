@@ -28,4 +28,8 @@ class PagesRouterController extends Controller
     {
         return Inertia::render('Teach');
     }
+    public function instructorregistration()
+    {
+        return Inertia::render('InstructorRegistration');
+    }
 }
