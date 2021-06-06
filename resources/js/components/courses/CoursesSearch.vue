@@ -9,43 +9,22 @@
       />
     </div>
 
-    <div v-if="!seachNotFound" class="flex flex-wrap space-y-3">
+    <div v-if="!seachNotFound" class="grid grid-cols-1 gap-6 mx-6 mt-6 sm:grid-cols-2 lg:grid-cols-3">
       <div
         v-for="course in filteredCourses"
         :key="course.id"
-        class="px-8 py-6 lg:w-1/3 md:w-full"
+        class="w-full max-w-sm mx-auto overflow-hidden rounded-md shadow-md"
       >
-        <div class="p-6 bg-gray-200 rounded-md">
-          <img
-            class="object-cover object-center w-full h-40 mb-6 rounded"
-            src="https://dummyimage.com/720x400/ffffff/8693ac"
-            alt="content"
-          />
-          <h2
-            class="mb-3 text-lg font-semibold text-gray-700 lg:text-2xl title-font"
-          >
-            {{ course.name }}
-          </h2>
-          <p class="mb-4 text-base leading-relaxed">{{ course.description }}</p>
-          <a
-            href="#"
-            class="inline-flex courses-center font-semibold text-blue-700 md:mb-2 lg:mb-0 hover:text-blue-400"
-          >
-            Read More
-            <svg
-              class="w-4 h-4 ml-2"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="20"
-              height="20"
-              fill="currentColor"
-            >
-              <path fill="none" d="M0 0h24v24H0z" />
-              <path
-                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-              />
-            </svg>
-          </a>
+        <div
+          class="flex items-end justify-end w-full h-56 bg-cover"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+          "
+        ></div>
+        <div class="px-5 py-3">
+          <h3 class="text-gray-700 uppercase">{{ course.name }}</h3>
+          <p class="m-2 font-medium">{{ course.description }}</p>
+          <span class="mt-2 text-gray-500">{{ course.price }}</span>
         </div>
       </div>
     </div>
