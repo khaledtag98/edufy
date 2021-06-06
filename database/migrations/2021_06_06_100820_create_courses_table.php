@@ -22,7 +22,7 @@ class CreateCoursesTable extends Migration
             $table->integer('price');
             $table->unsignedBigInteger('instructor_id');
 
-            $table->foreign('instructor_id')->references('user_id')->on('instructors');
+            $table->foreign('instructor_id')->references('id')->on('instructors');
         });
     }
 
