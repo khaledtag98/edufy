@@ -33,4 +33,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/instructor-registration',
 Route::middleware(['auth:sanctum', 'verified'])->get('/create', function () {
     return Inertia::render('CreateCourse');
 })->name('create');
+Route::middleware(['auth:sanctum', 'verified'])->get('/edit-course', function () {
+    return Inertia::render('EditCourse');
+})->name('edit-course');
 

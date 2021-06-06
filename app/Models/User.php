@@ -20,6 +20,9 @@ class User extends Authenticatable
     use Notifiable;
     use TwoFactorAuthenticatable;
 
+    public function instructors(){
+        return $this->hasOne('App\Models\Instructor');
+    }
     /**
      * The attributes that are mass assignable.
      *
