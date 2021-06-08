@@ -50,15 +50,20 @@
 
         </div>
         <button @click="addsection=!addsection" class="font-bold text-gray-1000">+ New Section</button>
-        <div class="my-4" v-show="addsection">
-            <input  type="text" placeholder="Add section title">
-            <button class="px-4 ml-4 font-bold bg-gray-200 text-gray-1000">Add</button>
-        </div>
-        <div  v-for="section in sections" :key="section" class="w-1/2 py-6 mx-auto mt-2 bg-gray-200 border-gray-400 hover:border-gray-600 text-start border-1">
+
+        <form @submit.prevent="submit">
+            <div class="my-4" v-show="addsection">
+                <input v-model="this.sectionForm.title"  type="text" placeholder="Add section title">
+                <button type="submit" class="px-4 ml-4 font-bold bg-gray-200 text-gray-1000">Add</button>
+            </div>
+        </form>
+        
+
+        <!-- <div  v-for="section in sections" :key="section" class="w-1/2 py-6 mx-auto mt-2 bg-gray-200 border-gray-400 hover:border-gray-600 text-start border-1">
            <div class="flex ml-3">
                <div @click="section.clicked=!section.clicked" class="flex cursor-pointer hover:underline">
                    <h1 class="mr-2 font-bold text-md">Section:</h1>
-                    <h1 class="font-medium text-md">{{section.title}}</h1>
+                    <h1 class="font-medium text-md">section.title</h1>
                </div>
            </div>
             <div v-show="section.clicked">
@@ -66,11 +71,11 @@
                     <div class="flex justify-between">
                     <div class="flex">
                         <h1 class="mr-2 text-md">Lecture:</h1>
-                        <h1 class="font-medium text-md">{{lecture.title}}</h1>
+                        <h1 class="font-medium text-md">lecture.title</h1>
                     </div>
                    <button @click="lecture.clicked=!lecture.clicked" class="px-2 py-1 mr-8 text-sm font-bold text-white bg-gray-1000">Edit</button>
                </div>
-               <p class="text-md " v-show="lecture.clicked">Current link: <a :href="lecture.video">{{lecture.video}}</a></p>
+               <p class="text-md " v-show="lecture.clicked">Current link: <a :href="lecture.video">lecture.video</a></p>
                <div v-show="lecture.clicked" class="flex justify-center mt-8 ">
                </div>
                <div v-show="lecture.clicked" class="flex justify-center mt-2 ">
@@ -93,7 +98,7 @@
                 </div>
                
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 <style>
@@ -103,54 +108,28 @@
 </style>
 <script>
 export default{
+    props:['data'],
     data(){
         return{
             edit:false,
             addsection:false,
-            sections:[
-                {
-                    title: 'Section 1',
-                    clicked: false,
-                    addlect: false,
-                    lectures: [
-                        {
-                            title: 'Lecture 1',
-                            clicked: false,
-                            video: 'https://www.youtube.com'
-                            
-                        },
-                        {
-                            title: 'Lecture 2',
-                            clicked: false,
-                            video: 'https://www.youtube.com'
-                        },
-                        {
-                            title: 'Lecture 3',
-                            clicked: false,clicked: false,
-                            video: 'https://www.youtube.com'
-
-                        },
-                    ],
-                },
-                {
-                    title: 'Section 2',
-                    clicked: false,
-                    addlect: false,
-                    lectures: [
-                        {
-                            title: 'Lecture 1',
-                            clicked: false,
-                        },
-                        {
-                            title: 'Lecture 2',
-                            clicked: false,
-                        },
-                    ],
-                },
-
             
-            ],
+                sectionForm: {
+                    title: '',
+                    clicked: false,
+                    addlect: false,
+                    course_id: null,
+                }
+            
     }
+},
+mounted() {
+    console.log(this.data);
+},
+methods:{
+    submit() {
+      this.$inertia.post('/add-section', this.sectionForm)
+    },
 }
 }
 </script>

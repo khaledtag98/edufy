@@ -8,17 +8,20 @@
             <div class="w-1/2">
                 <p class="font-bold text-gray-800 text-md">What kind of teaching have you done before?</p>
                 <div class="flex px-4 py-3 mt-4 border-gray-500 border-1 w-80 hover:border-black hover:cursor-pointer">
-                    <input id="op1" name="option" class="m-2 mr-4" type="radio"><p>In person, informally</p>
+                    <input type="radio" id="one" value="one" v-model="picked">
+                    <label class="ml-2" for="two">In person, informally</label>
                 </div>
                 <div class="flex px-4 py-3 mt-4 border-gray-500 border-1 w-80 hover:border-black hover:cursor-pointer">
-                    <input type="radio" id="one" value="One" v-model="picked">
-                    <label for="two">Two</label>
+                    <input type="radio" id="two" value="two" v-model="picked">
+                    <label class="ml-2" for="two">In person, professionaly</label>
                 </div>
                 <div class="flex px-4 py-3 mt-4 border-gray-500 border-1 w-80 hover:border-black hover:cursor-pointer">
-                    <input id="op1" name="option" class="m-2 mr-4" type="radio"><p>Online</p>
+                    <input type="radio" id="three" value="three" v-model="picked">
+                    <label class="ml-2" for="two">Online</label>
                 </div>
                 <div class="flex px-4 py-3 mt-4 border-gray-500 border-1 w-80 hover:border-black hover:cursor-pointer">
-                    <input id="op1" name="option" class="m-2 mr-4" type="radio"><p>Other</p>
+                    <input type="radio" id="four" value="four" v-model="picked">
+                    <label class="ml-2" for="two">Other</label>
                 </div>
             </div>
             <div class="w-1/2 mt-8">
@@ -38,7 +41,7 @@ export default{
     props: ['chosen'],
     data() {
         return{
-
+            picked: "one",
         }
     },
     methods:{

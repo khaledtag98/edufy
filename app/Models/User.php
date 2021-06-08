@@ -20,8 +20,8 @@ class User extends Authenticatable
     use Notifiable;
     use TwoFactorAuthenticatable;
 
-    public function instructors(){
-        return $this->hasOne('App\Models\Instructor');
+    public function courses(){
+        return $this->hasMany('App\Models\Course');
     }
     /**
      * The attributes that are mass assignable.

@@ -4,7 +4,7 @@ namespace Database\Factories;
 
 use App\Models\Course;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use App\Models\Instructor;
+use App\Models\User;
 
 class CourseFactory extends Factory
 {
@@ -24,7 +24,7 @@ class CourseFactory extends Factory
     {
         $catygory = ["catygory1", "catygory2", "catygory3"];
         return [
-            'instructor_id' => Instructor::factory(),
+            'user_id' => User::factory(),
             'title' => $this->faker->name,
             'category' => $catygory[rand(0, 2)],
             'description' => $this->faker->paragraph(3),

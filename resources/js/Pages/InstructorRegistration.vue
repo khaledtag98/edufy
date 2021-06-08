@@ -38,9 +38,10 @@ export default{
       switchTab(flag){
           if(flag==0){
               this.currentStep++;
-              if(this.currentStep>3)
+              if(this.currentStep>=3)
               {
-                  window.location.href='/tutor-dashboard'
+                  this.currentStep=3;
+                  this.$inertia.get(route("update-instructor"));
               }
           }
           else if(flag==1){

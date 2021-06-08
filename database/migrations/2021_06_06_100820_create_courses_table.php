@@ -17,12 +17,11 @@ class CreateCoursesTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('category');
-            $table->string('title');
-            $table->string('description');
+            $table->string('title')->nullable();
+            $table->text('description');
             $table->integer('price');
-            $table->unsignedBigInteger('instructor_id');
-
-            $table->foreign('instructor_id')->references('id')->on('instructors');
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

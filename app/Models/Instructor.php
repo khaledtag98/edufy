@@ -9,10 +9,5 @@ class Instructor extends Model
 {
     use HasFactory;
     protected $guarded = [];
-    public function users(){
-        return $this->belongsTo('App\Models\User');
-    }
-    public function courses(){
-        return $this->hasMany('App\Models\Course');
-    }
+    
 }

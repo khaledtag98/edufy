@@ -1423,17 +1423,14 @@ select {
 .w-screen {
 	width: 100vw;
 }
+.w-80 {
+	width: 24rem;
+}
 .w-1\/2 {
 	width: 50%;
 }
-.w-96 {
-	width: 32rem;
-}
 .w-2\/3 {
 	width: 66.666667%;
-}
-.w-80 {
-	width: 24rem;
 }
 .w-1 {
 	width: 0.25rem;
@@ -1512,6 +1509,9 @@ select {
 }
 .cursor-pointer {
 	cursor: pointer;
+}
+.cursor-not-allowed {
+	cursor: not-allowed;
 }
 .list-inside {
 	list-style-position: inside;
@@ -1880,13 +1880,13 @@ select {
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
-.px-5 {
-	padding-left: 1.25rem;
-	padding-right: 1.25rem;
-}
 .py-20 {
 	padding-top: 5rem;
 	padding-bottom: 5rem;
+}
+.px-5 {
+	padding-left: 1.25rem;
+	padding-right: 1.25rem;
 }
 .py-16 {
 	padding-top: 4rem;
@@ -1981,6 +1981,10 @@ select {
 	font-size: 1.25rem;
 	line-height: 1.75rem;
 }
+.text-4xl {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+}
 .text-5xl {
 	font-size: 3rem;
 	line-height: 1;
@@ -1988,10 +1992,6 @@ select {
 .text-6xl {
 	font-size: 4rem;
 	line-height: 1;
-}
-.text-4xl {
-	font-size: 2.25rem;
-	line-height: 2.5rem;
 }
 .text-3xl {
 	font-size: 1.875rem;
@@ -2193,9 +2193,6 @@ select {
 .transition-all {
 	transition-property: all;
 }
-.duration-150 {
-	transition-duration: 150ms;
-}
 .duration-200 {
 	transition-duration: 200ms;
 }
@@ -2205,20 +2202,23 @@ select {
 .duration-300 {
 	transition-duration: 300ms;
 }
+.duration-150 {
+	transition-duration: 150ms;
+}
 .duration-1000 {
 	transition-duration: 1000ms;
 }
 .duration-100 {
 	transition-duration: 100ms;
 }
-.ease-in-out {
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 .ease-out {
 	transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 .ease-in {
 	transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+.ease-in-out {
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hover\:cursor-pointer:hover {
 	cursor: pointer;
@@ -2366,9 +2366,21 @@ select {
 	--tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(3px + var(--tw-ring-offset-width)) var(--tw-ring-color);
 	box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
+.focus\:ring-gray-300:focus {
+	--tw-ring-opacity: 1;
+	--tw-ring-color: rgba(226, 232, 240, var(--tw-ring-opacity));
+}
 .focus\:ring-indigo-200:focus {
 	--tw-ring-opacity: 1;
 	--tw-ring-color: rgba(195, 218, 254, var(--tw-ring-opacity));
+}
+.focus\:ring-red-200:focus {
+	--tw-ring-opacity: 1;
+	--tw-ring-color: rgba(254, 215, 215, var(--tw-ring-opacity));
+}
+.focus\:ring-blue-200:focus {
+	--tw-ring-opacity: 1;
+	--tw-ring-color: rgba(190, 227, 248, var(--tw-ring-opacity));
 }
 .focus\:ring-opacity-50:focus {
 	--tw-ring-opacity: 0.5;

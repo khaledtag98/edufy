@@ -48,8 +48,8 @@
               v-if="$page.props.user"
               class="hidden sm:flex sm:items-center sm:ml-6"
             >
-              <div class="relative ml-3">
-                <!-- Teams Dropdown -->
+              <!-- <div class="relative ml-3">
+               
                 <jet-dropdown
                   align="right"
                   width="60"
@@ -81,13 +81,13 @@
 
                   <template #content>
                     <div class="w-60">
-                      <!-- Team Management -->
+                      
                       <template v-if="$page.props.jetstream.hasTeamFeatures">
                         <div class="block px-4 py-2 text-xs text-gray-400">
                           Manage Team
                         </div>
 
-                        <!-- Team Settings -->
+                        
                         <jet-dropdown-link
                           :href="
                             route('teams.show', $page.props.user.current_team)
@@ -105,7 +105,7 @@
 
                         <div class="border-t border-gray-100"></div>
 
-                        <!-- Team Switcher -->
+                        
                         <div class="block px-4 py-2 text-xs text-gray-400">
                           Switch Teams
                         </div>
@@ -142,7 +142,7 @@
                     </div>
                   </template>
                 </jet-dropdown>
-              </div>
+              </div> -->
 
               <!-- Settings Dropdown -->
               <div class="relative ml-3">
@@ -362,14 +362,14 @@
               </form>
 
               <!-- Team Management -->
-              <template v-if="$page.props.jetstream.hasTeamFeatures">
+              <!-- <template v-if="$page.props.jetstream.hasTeamFeatures">
                 <div class="border-t-2 border-gray-200"></div>
 
                 <div class="block px-4 py-2 text-xs text-gray-400">
                   Manage Team
                 </div>
 
-                <!-- Team Settings -->
+                
                 <jet-responsive-nav-link
                   :href="route('teams.show', $page.props.user.current_team)"
                   :active="route().current('teams.show')"
@@ -386,7 +386,7 @@
 
                 <div class="border-t border-gray-200"></div>
 
-                <!-- Team Switcher -->
+               
                 <div class="block px-4 py-2 text-xs text-gray-400">
                   Switch Teams
                 </div>
@@ -414,7 +414,7 @@
                     </jet-responsive-nav-link>
                   </form>
                 </template>
-              </template>
+              </template> -->
             </div>
           </div>
           <div v-else class="mt-3 space-y-1">

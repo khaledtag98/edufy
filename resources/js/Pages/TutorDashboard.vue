@@ -1,6 +1,6 @@
 <template>
   <app-layout>
-        <Courses/>
+        <Courses :user="user"/>
   </app-layout>
 </template>
 
@@ -10,6 +10,9 @@ export default {
     components: {
     Courses
   },
+  props:{
+    user:Object
+  }
   
 };
 </script>

@@ -8,13 +8,16 @@
             <div class="w-1/2">
                 <p class="font-bold text-gray-800 text-md">Do you have an audience to share your course with?</p>
                 <div class="flex px-4 py-3 mt-4 border-gray-500 border-1 w-80 hover:border-black hover:cursor-pointer">
-                    <input id="op1" name="option" class="m-2 mr-4" type="radio"><p>Not at the moment</p>
+                    <input type="radio" id="one" value="one" v-model="picked">
+                    <label class="ml-2" for="two">Not at the moment</label>
                 </div>
                 <div class="flex px-4 py-3 mt-4 border-gray-500 border-1 w-80 hover:border-black hover:cursor-pointer">
-                    <input id="op1" name="option" class="m-2 mr-4" type="radio"><p>I have a small following</p>
+                    <input type="radio" id="two" value="two" v-model="picked">
+                    <label class="ml-2" for="two">I have a small following</label>
                 </div>
                 <div class="flex px-4 py-3 mt-4 border-gray-500 border-1 w-80 hover:border-black hover:cursor-pointer">
-                    <input id="op1" name="option" class="m-2 mr-4" type="radio"><p>I have a sizeable following</p>
+                    <input type="radio" id="three" value="three" v-model="picked">
+                    <label class="ml-2" for="two">I have a sizeable following</label>
                 </div>
             </div>
             <div class="w-1/2 mt-8">
@@ -34,7 +37,7 @@ export default{
 
     data() {
         return{
-
+            picked: "one",
         }
     },
     
