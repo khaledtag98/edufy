@@ -1,6 +1,6 @@
 <template>
 <app-layout>
-    <EditForm :data="this.course_id"/>
+    <EditForm :course="course"/>
 </app-layout>
 </template>
 
@@ -14,7 +14,14 @@ export default{
         EditForm,
     },
     data(){
+        return{
 
-    }
+        }
+    } ,props: {
+    course: Object,
+  },
+  mounted() {
+ 
+  },
 }
 </script>

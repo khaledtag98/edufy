@@ -5,6 +5,7 @@ use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\PagesRouterController;
+use App\Models\Course;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,7 +28,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/tutor-dashboard', [Instru
 Route::middleware(['auth:sanctum', 'verified'])->post('/create-course', [InstructorCheckController::class, 'createcourse'])->name('create-course');
 Route::middleware(['auth:sanctum', 'verified'])->post('/add-section', [InstructorCheckController::class, 'createSection'])->name('createSection');
 
-
+Route::get('player/{id}', [PagesRouterController::class, 'show'])->name('course.show');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('UserDasboard');
 })->name('dashboard');
@@ -41,7 +42,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/instructor-registration',
 Route::middleware(['auth:sanctum', 'verified'])->get('/create', function () {
     return Inertia::render('CreateCourse');
 })->name('create');
-Route::middleware(['auth:sanctum', 'verified'])->get('/edit-course/{id}', function ($id) {
-    return Inertia::render('EditCourse', ['course_id'=>$id]);
-})->name('edit-course');
+
+
+
+Route::get('/edit-course/{id}', [PagesRouterController::class, 'editCourse'])->name('course.edit');
 

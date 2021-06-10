@@ -18,7 +18,7 @@ class CreateCoursesTable extends Migration
             $table->timestamps();
             $table->string('category');
             $table->string('title')->nullable();
-            $table->text('description');
+            $table->text('description')->nullable();
             $table->integer('price');
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');

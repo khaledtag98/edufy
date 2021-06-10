@@ -58,7 +58,7 @@
         </p>
         <div
             v-else
-            :key="course"
+            :key="course.id"
             v-for="course in this.user.courses"
             class="flex justify-between py-12 mx-8 mt-4 duration-100 border-gray-300 shadow-sm border-1 hover:shadow-md"
         >
@@ -151,8 +151,7 @@
                         {{ course.description }}
                     </p>
                     <inertia-link
-                        :href="route('edit-course', {course_id:course.id})"
-                        method="get"
+                        :href="route('course.edit', course.id)"
                         class="flex px-4 py-2 ml-4 mr-12 font-bold text-gray-1000"
                         ><svg
                             height="25"
@@ -225,7 +224,7 @@
 export default {
     props: ["user"],
     mounted() {
-        console.log(this.user.courses);
+    
     }
 };
 </script>

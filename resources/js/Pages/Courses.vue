@@ -1,7 +1,7 @@
 <template>
   <app-layout>
     <coursesHeroSection />
-    <CoursesSearch />
+    <CoursesSearch :instructors="instructors" :courses="courses" />
   </app-layout>
 </template>
 
@@ -12,6 +12,12 @@ export default {
   components: {
     coursesHeroSection,
     CoursesSearch,
+  },
+  props:{
+    instructors:Array,
+    courses:Array
+  },
+  mounted() {
   },
 };
 </script>
